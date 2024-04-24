@@ -1,4 +1,4 @@
-# PubChem Toolkit
+# PubChem Toolkit V0.0.2
 
 The PubChem Toolkit is a Python package that provides a convenient wrapper around the PubChem PUG REST API. It simplifies the process of searching for compound properties available at PubChem, allowing users to retrieve information about chemical compounds using their names, molecular formulas, or SMILES notation.
 
