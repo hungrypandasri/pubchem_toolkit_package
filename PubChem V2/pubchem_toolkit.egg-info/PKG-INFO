@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pubchem-toolkit
+Version: 0.0.2
+Summary: A toolkit for accessing PubChem database.
+Home-page: https://github.com/yourusername/pubchem-toolkit
+Author: Sriram Natarajan
+Author-email: hungrypandasriram@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# PubChem Toolkit
+
+The PubChem Toolkit is a Python package that provides convenient access to compound properties from the PubChem database. It allows users to retrieve information about chemical compounds using their names, molecular formulas, or SMILES notation.
+
+## Installation
+
+You can install the PubChem Toolkit via pip. Open a terminal or command prompt and run the following command:
+
+```bash
+pip install pubchem_toolkit
