@@ -2,13 +2,17 @@
 
 import unittest
 from pubchem_toolkit.modified_compound_search import autocomplete_search
-# from pubchem_toolkit.modified_compound_search import get_compound_properties_with_autocomplete
 
 
 class TestAutocomplete(unittest.TestCase):
+    """Test case class for autocomplete functionality."""
+
     def test_valid_autocomplete(self):
+        """Test valid auto-complete search."""
         # Test auto-complete search for compounds
-        compounds = autocomplete_search("aspirin", dictionary="compound", limit=6)
+        compounds = autocomplete_search(
+            "aspirin", dictionary="compound", limit=6
+        )
         self.assertIsNotNone(compounds)
         self.assertIsInstance(compounds, list)
         self.assertTrue(len(compounds) > 0)
@@ -22,6 +26,7 @@ class TestAutocomplete(unittest.TestCase):
         # Add more tests for other dictionaries (e.g., assays, taxonomy) if needed
 
     def test_invalid_autocomplete(self):
+        """Test invalid auto-complete search."""
         # Test auto-complete search with invalid query
         invalid_result = autocomplete_search(
             "nonexistentquery", dictionary="compound", limit=10
