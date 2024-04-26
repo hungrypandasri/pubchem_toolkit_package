@@ -1,0 +1,5 @@
+# Requirements file
+python>=3.6
+requests>=2.26.0
+black>=21.12b0
+pytest>=7.0.0
