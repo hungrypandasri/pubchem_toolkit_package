@@ -1,4 +1,4 @@
-# File: setup.py
+"""Setup script for the pubchem_toolkit package."""
 
 from setuptools import setup, find_packages
 
