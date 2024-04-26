@@ -1,4 +1,4 @@
-# File: pubchem_toolkit/compound_search.py
+"""Provides functions for interacting with the PubChem API to retrieve compound properties."""
 
 import requests
 import logging
@@ -41,6 +41,7 @@ def get_compound_properties_with_autocomplete(
 ):
     """
     Retrieve compound properties or a specific compound property from PubChem API based on compound identifier.
+
     This function first performs an auto-complete search to get a suggested compound name based on the input identifier.
     Then, it retrieves the compound properties for the suggested compound.
 
