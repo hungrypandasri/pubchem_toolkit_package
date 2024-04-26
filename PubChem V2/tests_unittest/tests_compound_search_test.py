@@ -1,8 +1,8 @@
 # File: tests/test_compound_search.py
 
 import unittest
-from pubchem_toolkit.compound_search import autocomplete_search
-from pubchem_toolkit.compound_search import get_compound_properties_with_autocomplete
+from pubchem_toolkit.modified_compound_search import autocomplete_search
+from pubchem_toolkit.modified_compound_search import get_compound_properties_with_autocomplete
 
 
 class TestAutocomplete(unittest.TestCase):
