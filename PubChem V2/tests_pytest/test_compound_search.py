@@ -1,4 +1,4 @@
-# File: tests_pytest/test_compound_search.py
+""" Pytests for compound search functionality."""
 
 import pytest
 from pubchem_toolkit.modified_compound_search import autocomplete_search
